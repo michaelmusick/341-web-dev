@@ -1,6 +1,6 @@
 # GIT Version Control System
 
-One great thing about working with text files is that their simplicity makes it easy to track changes between various versions of a file. Since the files contain only [ASCII][1] characters, it is easy to create programs that can look for character or word level changes to a document.
+One great thing about working with text files is that their simplicity makes it easy to track changes between various versions of a file. Since the files contain only [ASCII](http://www.asciitable.com) characters, it is easy to create programs that can look for character or word level changes to a document.
 
 ## Why use Version Control?
 
@@ -12,7 +12,7 @@ One great thing about working with text files is that their simplicity makes it 
 
 
 ## More about GIT
-Please read sections 1.1-1.3 in the following online book about Git. [Pro Git - TOC][2]
+Please read sections 1.1-1.3 in the following online book about Git. [Pro Git - TOC](https://git-scm.com/book/en/v2)
 
 ## Why are we using GIT
 
@@ -33,13 +33,13 @@ Mac and Linux users likely have Git already installed on their machines. To chec
 git --version
 ```
 
-![check git version in terminal][image-1]
+![check git version in terminal](imgs/git_terminal.jpg "How to check Git version on unix")
 If you saw something like the above returned then you have git.
 
-If you did not have git installed, want the latest version, or are on Windows then follow the install instructions from [chapter 1.5 of the “Pro Git” book][3] or the [Atlassian Tutorial Site][4].
+If you did not have git installed, want the latest version, or are on Windows then follow the install instructions from [chapter 1.5 of the “Pro Git” book](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) or the [Atlassian Tutorial Site](https://www.atlassian.com/git/tutorials/install-git).
 
 ## Setup
-After installing Git you should follow the instructions from [chapter 1.6 of the Pro Git book on “First-Time Git Setup”][5].
+After installing Git you should follow the instructions from [chapter 1.6 of the Pro Git book on “First-Time Git Setup”](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
 
 The main thing to do is to set your username and email address. This is done with the following two lines of code in terminal or Command Line. (note: do not copy the '$'. This is a convention to show a new line in terminal/Command Prompt. Instead copy the rest of the line starting at the first character after the dollar sign. If a line does not start with a ‘$’, it is text output from the computer. Do not copy these lines.)
 ```bash
@@ -48,7 +48,7 @@ $ git config --global user.email johndoe@example.com
 ```
 
 # Git Basics
-This section will refer to [Chapter 2 in the Pro Git book][6]. You need to read this chapter.
+This section will refer to [Chapter 2 in the Pro Git book](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). You need to read this chapter.
 
 OK, lets learn some Git. Open `terminal.app` if you are on macOS/Linux or `cmd.exe` on Windows.
 
@@ -67,7 +67,7 @@ $ mkdir 341-work
 $ cd 341-work
 ```
 
-![Example image of creating the 341-work directory][image-2]
+![Example image of creating the 341-work directory](imgs/341-work-example.jpg)
 
 ### Step 2 - Initialize the Directory as a Git Repository
 Make the new directory a Git repository.
@@ -214,23 +214,11 @@ Date:   Wed Jan 11 13:44:49 2017 -0700
 ```
 
 ## { TODO: }
-Practice adding and changing files within your new Git repo. If you are having problems, return to the [Pro-Git book][7].
+Practice adding and changing files within your new Git repo. If you are having problems, return to the [Pro-Git book](https://git-scm.com/book/en/v2).
 
 Please watch the following videos to learn more about Git. 
 <iframe src="https://player.vimeo.com/video/41381741" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 <iframe src="https://player.vimeo.com/video/41493906" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-For additional resources check out the [Git curated “External Links” page][8]. 
-
-[1]:	http://www.asciitable.com
-[2]:	https://git-scm.com/book/en/v2
-[3]:	https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-[4]:	https://www.atlassian.com/git/tutorials/install-git
-[5]:	https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
-[6]:	https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository
-[7]:	https://git-scm.com/book/en/v2
-[8]:	https://git-scm.com/documentation/external-links
-
-[image-1]:	imgs/git_terminal.jpg "How to check Git version on unix"
-[image-2]:	imgs/341-work-example.jpg
+For additional resources check out the [Git curated “External Links” page](https://git-scm.com/documentation/external-links). 

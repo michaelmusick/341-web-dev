@@ -1,11 +1,11 @@
 # GitHub.com
 
 ## Repository Hosting
-[GitHub.com][1] is a web-based Git repository hosting service.
+[GitHub.com](https://github.com) is a web-based Git repository hosting service.
 
 <iframe src="https://www.youtube.com/embed/VUaBfYCmJls" frameborder="0" allowfullscreen></iframe>
 
-GitHub allows users to have an unlimited number of *public* repositories under 2GB each. Meaning your source code is publicly available to the world for them to view and fork (copy). This is great, as it encourages “[open source][2]” software projects. Open source software encourages the development of shared knowledge and progress within the open source community. It also means that all code is publicly viewable.
+GitHub allows users to have an unlimited number of *public* repositories under 2GB each. Meaning your source code is publicly available to the world for them to view and fork (copy). This is great, as it encourages “[open source](https://opensource.org/osd)” software projects. Open source software encourages the development of shared knowledge and progress within the open source community. It also means that all code is publicly viewable.
 
 ## Advanced Collaboration Tools
 As you saw in the above video, GitHub also provides advanced collaboration tools. This is not something you will use much this semester. However, it is important to know about and you will use it in future projects.
@@ -36,16 +36,16 @@ Finally, you will be expected to log “issues” which might be problems or que
 # Getting Up & Running with GitHub
 
 ## Step 1 - Create an Account
-First, visit [GitHub.com][3] and create a new user account.
+First, visit [GitHub.com](https://github.com/) and create a new user account. (Step 1 should have been completed during week-01)
 
 **NOTE:** Please choose a username that you are comfortable with being part of your publicly visible URL. Ideally, this should be your name or something similar. Your username will be publicly available and used often for many things throughout this course and your entire time on GitHub.
-![GitHub.com signup page][image-1]
+![GitHub.com signup page](imgs/gh_signup.jpg)
 
 - Fix any problems the signup engine informs you about.
 - On Step 2: Keep “Unlimited public repositories for free.” selected. Then select “Continue”.
 - Finally, go to the mail account you used during account creation and verify your e-mail address. 
 - After your account is created, select the avatar in the upper-right hand corner. This should produce a dropdown menu. From there select the “Settings” option.
-![GitHub Profile Setup][image-2]
+![GitHub Profile Setup](imgs/gh_setup1.jpg)
 - From here feel free to fill in as much or little of the public profile information as you want. (Although filling in your name and Profile Pic is encouraged)
 
 ## Step 2 - Link GitHub to SourceTree
@@ -54,13 +54,13 @@ After creating a GitHub account, the next step is to link it to SourceTree (or t
 - In SourceTree, open preferences (cmd + ,) and navigate to the “Accounts” tab. 
 - Click the “Add…” button.
 - Under the “Host:” dropdown menu, select GitHub.
-![GitHub Setup in SourceTree.app][image-3]
+![GitHub Setup in SourceTree.app](imgs/gh_setup2.jpg)
 - Under “Username:” select the “Connect Account” button. Sign in to your GitHub account, using the credentials you just created.
-![GitHub Login via SourceTree.app][image-4]
+![GitHub Login via SourceTree.app](imgs/gh_setup3.jpg)
 - You may then see another screen which you need to scroll down until you see a green “Authorize application” button, then click that button. (You may also skip this step depending on how GitHub views your computer)
-![GitHub Authorization in SourceTree.app][image-5]
+![GitHub Authorization in SourceTree.app](imgs/gh_setup4.jpg)
 - Next, under “Protocol: “ change the dropdown menu from SSH to HTTPS.
-![GitHub Authorization in SourceTree.app][image-6]
+![GitHub Authorization in SourceTree.app](imgs/st_setup4.jpg)
 - Finally, click “OK”.
 - You can now close preferences. 
 
@@ -70,28 +70,28 @@ Finally, lets add our “341-work” Git repo to GitHub.com.
 - Go to the Repository Browser window in the SourceTree app. (You can get to this from the “Window” tab in the menu bar.
 - Right-click, two-finger-click, or control-click the 341-work repo to bring up the context menu. 
 - Select “Publish to Remote…”
-![SourceTree Remote repo setup][image-7]
+![SourceTree Remote repo setup](imgs/repo_setup2.jpg)
 - Make sure the Account and Owner are you.
 - Leave the name of the repo at 341-work
 - Make sure type is “Git”
 - UNCHECK, the “This is a private repository” box.
 - Then click the “Create” button.
-- ![Git Repo Settings][image-8]
+- ![Git Repo Settings](imgs/repo_setup3.jpg)
 - After the repo is created remotely, you should see a window that starts with “Push to repository: “. This is how we sync data between a local git repo and a remote repo. 
 - Select the “master” branch check box. 
 - Then click “OK”
-![Push repo to GitHub][image-9]
+![Push repo to GitHub](imgs/repo_setup4.jpg)
 
 **NOTE: ** If you have “permission” problems do the following. 
 - Go to GitHub.com, and select the 341-work repository, which should have been created.
-![Push repo to GitHub][image-10]
+![Push repo to GitHub](imgs/repo_setup5.jpg)
 - Select and copy the HTTPS address for the repo (as opposed to the SSH address).
-![Push repo to GitHub][image-11]
+![Push repo to GitHub](imgs/repo_setup6.jpg)
 - From the repo window in SourceTree, select the “Settings” button in the top-right hand corner, and then select the “Remotes” tab.
-![Push repo to GitHub][image-12]
+![Push repo to GitHub](imgs/repo_setup7.jpg)
 - Select the “origin” remote and click “Edit”.
 - Replace the “URL / path:” address that starts with “git@github” with the “https” address you copied from GitHub.com. Then click “OK”.
-![Push repo to GitHub][image-13]
+![Push repo to GitHub](imgs/repo_setup8.jpg)
 - Finally, hit the “Push” button from the top bar.
 - Select the “master” checkbox. Then hit “OK”.
 - You will be asked to enter your GitHub.com credentials. If you are on a Mac, I would save these in your keychain. 
@@ -101,28 +101,9 @@ Finally, lets add our “341-work” Git repo to GitHub.com.
 To verify success in pushing the repo, go to GitHub.com. You should see “341-work” under “Your repositories”.
 
 Select your 341-work repository. You should see the files you added to your repo on the GitHub.com site. 
-![The 341 repo on GitHub][image-14]
+![The 341 repo on GitHub](imgs/gh_341_repo.jpg)
 
 You can now select any of these files to view their contents. 
 
 Likewise, you can select the “commits” tab to see all of the commits you have made in your repo so far. 
  
-
-[1]:	https://github.com
-[2]:	https://opensource.org/osd
-[3]:	https://github.com/
-
-[image-1]:	imgs/gh_signup.jpg
-[image-2]:	imgs/gh_setup1.jpg
-[image-3]:	imgs/gh_setup2.jpg
-[image-4]:	imgs/gh_setup3.jpg
-[image-5]:	imgs/gh_setup4.jpg
-[image-6]:	imgs/st_setup4.jpg
-[image-7]:	imgs/repo_setup2.jpg
-[image-8]:	imgs/repo_setup3.jpg
-[image-9]:	imgs/repo_setup4.jpg
-[image-10]:	imgs/repo_setup5.jpg
-[image-11]:	imgs/repo_setup6.jpg
-[image-12]:	imgs/repo_setup7.jpg
-[image-13]:	imgs/repo_setup8.jpg
-[image-14]:	imgs/gh_341_repo.jpg

@@ -9,6 +9,4 @@ Web design is a critical part of web development and we will spend some time dis
 
 ## Overview
 Please read the following short 12 chapters at codeschool.com about. These succinctly describe the tools and nature of web development for a beginner.
-[codeschool.com - "Beginner’s Guide to Web Development"][1]
-
-[1]:	https://www.codeschool.com/beginners-guide-to-web-development
+[codeschool.com - "Beginner’s Guide to Web Development"](https://www.codeschool.com/beginners-guide-to-web-development)
