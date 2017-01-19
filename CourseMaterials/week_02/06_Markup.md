@@ -95,7 +95,9 @@ You will submit a link to this file in your GitHub repo via the class repo wiki 
 NOTE: Please edit, spell-check, and re-read your writing. Unfortunately, you will be marked down for poor writing.
 
 ### 2: Commit you changes and push them to the GitHub repo
-When you are finished with your write up, you should ‘stage’ this new `readme.md` file, along with the image file in your Git repo. Commit these files to the repo, then push your changes to the GitHub server. 
+First, when you are finished with your write up, I want you to move the test1.txt file from earlier in this weeks work to this same new child directory (`/341-work/week-02-homework/test1.txt`).
+
+When you are finished with your write up and moving the file, you should ‘stage’ this new `readme.md` file, along with the image file, and changed `test1.txt` in your Git repo. Commit these files to the repo, then push your changes to the GitHub server. 
 
 (NOTE: If you are uncomfortable with this, review the steps from the previous page)
 
