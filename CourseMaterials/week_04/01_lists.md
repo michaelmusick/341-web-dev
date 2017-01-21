@@ -6,7 +6,7 @@ There are two major types of lists that are often used;
 2. Unordered lists.
 
 ## Ordered Lists
-Ordered lists are those where each entry is prepended with an ascending identifier; such as numbers, letters, or roman numerals.
+Ordered lists are those where each entry is prepend with an ascending identifier; such as numbers, letters, or roman numerals.
 ![List Examples](imgs/listExamples.png)
 
 To identify a list, the content must be surrounded by the ordered list tags. ( `<ol>...</ol>` )
@@ -23,7 +23,7 @@ Each “list item” must be surrounded by the list item tags. ( `<li>...</li>` 
 ![Ordered List Example in Browser](imgs/olInBrowser.png)
 
 ## Unordered Lists
-Unordered lists are those that which begin with dots, bullets, dashes, or other visial signifiers. These lists are great for things like ingredients in a recipe.
+Unordered lists are those that which begin with dots, bullets, dashes, or other visual signifiers. These lists are great for things like ingredients in a recipe.
 
 Unordered lists, by default, get a dot in most browsers.
 
@@ -50,7 +50,7 @@ As with the ordered list, each list item is contained within a list item element
 ![Unordered List Example in Browser](imgs/ulInBrowser.png)
 
 ## Nested Lists
-You can combine list types as well as use multiple nested list elements to create heirarchically related lists. This is particularily useful for outlines or multi-part recipes, as examples.
+You can combine list types as well as use multiple nested list elements to create hierarchically related lists. This is particularly useful for outlines or multi-part recipes, as examples.
 
 NOTE: Notice how the nested list is contained _within_ the parent "list-item" element.
 ```html
@@ -95,11 +95,11 @@ NOTE: Notice how the nested list is contained _within_ the parent "list-item" el
 ## Definition Lists
 Definition lists are used to define terms.
 
-A definition list is indetified with `<dl>...</dl>` tags.
+A definition list is identified with `<dl>...</dl>` tags.
 
-The term being definied is encapselated in "definition term" tags. ( `<dt>...</dt>` )
+The term being defined is encapsulated in "definition term" tags. ( `<dt>...</dt>` )
 
-The terms definition is then encapselated in the "definition" tags. ( `<dd>...</dd>` )
+The terms definition is then encapsulated in the "definition" tags. ( `<dd>...</dd>` )
 
 NOTE: Sometime you might see a list where there are two terms used for the same definition or two different definitions for the same term. This is acceptable.
 

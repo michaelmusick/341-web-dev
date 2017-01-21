@@ -6,4 +6,4 @@ We will start with more structural markup elements, specifically, various types 
 
 Next, we will look at a lot of semantic markup elements that are used to add or change the meaning of text and prose. 
 
-
+Finally, we will look at how to use links for other websites, as well as e-mailing, and images. 

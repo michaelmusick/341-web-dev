@@ -48,6 +48,6 @@ Read chapter 2 from the Duckett. Please pay particular attention to the remainin
 - <dfn>Definitions</dfn> ( `<dfn>...</dfn>` )
 - Address ( `<address>... </address>` )
 - <ins>Insert</ins> & <del>Delete</del> ( `<del>...</del> <ins>...</ins>` )
-- <s>Strikethrough</s> ( `<s>...</s>` )
+- <s>Strike-through</s> ( `<s>...</s>` )
 
 You are responsible for all of these. 
